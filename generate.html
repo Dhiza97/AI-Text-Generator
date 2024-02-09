@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Text Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/openai-api@latest"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Text Generator</h1>
+    <p>Enter your text and click Generate to see what the AI can write.</p>
+    <form id="text-form" method="POST" action="generated.html">
+      <textarea id="text-input" name="text" placeholder="Type your text here..." required></textarea>
+      <button id="generate-btn" type="submit">Generate</button>
+    </form>
+  </div>
+</body>
+</html>
